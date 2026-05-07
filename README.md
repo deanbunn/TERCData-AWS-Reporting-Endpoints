@@ -6,7 +6,7 @@ The times are filtered so only the 0, 20, and 40 minute values of the hour are r
 
 For the State of the Lake API, "id" is the year of the report and "rptend" (optional and used for a range of years).
 
-## Endpoints
+## Reporting Endpoints
 - [State of the Lake](#state-of-the-lake)
 - [Met USCG 2020](#met-uscg-2020)
 - [USGS](#usgs)
@@ -147,7 +147,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met-uscg2
     "UpTot_Avg": "28.42",
     "DnTot_Avg": "18.57",
     "NetTot_Avg": "9.86"
-  },...
+  }
 ]
 ```
 
@@ -262,7 +262,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/ns-statio
     "WaveHeight": "0.003863335",
     "Conductivity25C_Avg": "0.1100411",
     "LS_DO_Avg": "55.47226"
-  },...
+  }
 ]
 ```
 
@@ -308,7 +308,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met?id=1&
     "Wind_Spd2": "None",
     "Wind_Dir": "335.4",
     "Air_Temp": "14.1"
-  },...
+  }
 ]
 ```
 
@@ -359,7 +359,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb?i
     "WindSpeed_2": "1.6",
     "AirTemp_2": "14.2",
     "WindDir_2": "285.3"
-  },...
+  }
 ]
 ```
 
@@ -431,7 +431,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweathe
     "Rain_Rate": "0.0",
     "Solar_Rad": "73.0",
     "Solar_Energy": "1.57"
-  },...
+  }
 ]
 ```
 
@@ -457,7 +457,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/cl-creeks
     "Turb_Max": "0.83",
     "Turb_Mean": "0.63",
     "Turb_Median": "0.63"
-  },...
+  }
 ]
 ```
 
@@ -470,31 +470,31 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/tc-homewo
 [
   {
     "TmStamp": "2022-06-27 00:00:00", 
-   "LS_RawPressure_Avg": "130.2856", 
-   "LS_DO_Avg": "71.22476", 
-   "LS_T1_Avg": "11.27003", 
-   "LS_T2_Avg": "10.4212", 
-   "LS_T3_Avg": "9.682767", 
-   "LS_T4_Avg": "8.6129", 
-   "LS_T5_Avg": "7.871133", 
-   "LS_T6_Avg": "7.254966", 
-   "LS_T7_Avg": "7.010283", 
-   "LS_T8_Avg": "6.61455", 
-   "LS_T9_Avg": "6.299917", 
-   "LS_T10_Avg": "6.1826", 
-   "LS_T11_Avg": "6.047166", 
-   "LS_T12_Avg": "5.99755", 
-   "LS_T13_Avg": "5.966233", 
-   "LS_T14_Avg": "5.869967", 
-   "LS_T15_Avg": "5.750333", 
-   "LS_T16_Avg": "5.66885", 
-   "O2_uM_corr_T16_Avg": "78.35", 
-   "Pct_Sat_T1_Avg": "0.284", 
-   "O2_uM_cal_T1_Avg": "97.0", 
-   "LakeSensor_BattV_Min": "12.57", 
-   "BP_mmHg": "612.8552", 
-   "Depth_m4C_Avg": "124.5109"
-   },...
+    "LS_RawPressure_Avg": "130.2856", 
+    "LS_DO_Avg": "71.22476", 
+    "LS_T1_Avg": "11.27003", 
+    "LS_T2_Avg": "10.4212", 
+    "LS_T3_Avg": "9.682767", 
+    "LS_T4_Avg": "8.6129", 
+    "LS_T5_Avg": "7.871133", 
+    "LS_T6_Avg": "7.254966", 
+    "LS_T7_Avg": "7.010283", 
+    "LS_T8_Avg": "6.61455", 
+    "LS_T9_Avg": "6.299917", 
+    "LS_T10_Avg": "6.1826", 
+    "LS_T11_Avg": "6.047166", 
+    "LS_T12_Avg": "5.99755", 
+    "LS_T13_Avg": "5.966233", 
+    "LS_T14_Avg": "5.869967", 
+    "LS_T15_Avg": "5.750333", 
+    "LS_T16_Avg": "5.66885", 
+    "O2_uM_corr_T16_Avg": "78.35", 
+    "Pct_Sat_T1_Avg": "0.284", 
+    "O2_uM_cal_T1_Avg": "97.0", 
+    "LakeSensor_BattV_Min": "12.57", 
+    "BP_mmHg": "612.8552", 
+    "Depth_m4C_Avg": "124.5109"
+   }
 ]
 ```
 
