@@ -6,6 +6,7 @@ The times are filtered so only the 0, 20, and 40 minute values of the hour are r
 
 For the State of the Lake API, "id" is the year of the report and "rptend" (optional and used for a range of years).
 
+
 ## Reporting Endpoints
 - [State of the Lake](#state-of-the-lake)
 - [Met USCG 2020](#met-uscg-2020)
