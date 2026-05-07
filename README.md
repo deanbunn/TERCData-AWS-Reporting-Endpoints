@@ -23,6 +23,7 @@ For the State of the Lake API, "id" is the year of the report and "rptend" (opti
 
 
 ### State of the Lake
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/state-of-lake?id=2020
 
 ```bash
 curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/state-of-lake?id=2020'
@@ -82,6 +83,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/state-of-
 ```
 
 ### Met USCG 2020
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met-uscg2020?id=1&rptdate=20260501
+
 ID Numbers:
 - 1 = USCG2020
 
@@ -152,6 +155,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met-uscg2
 ```
 
 ### USGS
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/usgs-ws?id=103366092&rptdate=20260501&rptend=20260504
+
 ID Numbers:  
 - 103366092 = Upper Truckee River near Meyers
 - 10336610 = Upper Truckee River at South Lake Tahoe
@@ -211,6 +216,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/usgs-ws?i
 ```
 
 ### Near Shore
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/ns-station-range?id=2&rptdate=20260501&rptend=20260504
+
 ID Numbers:
 - 1 = Cascade
 - 2 = Dollar Point
@@ -267,6 +274,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/ns-statio
 ```
 
 ### Met
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met?id=1&rptdate=20260501&rptend=20260504
+
 ID Numbers:
 - 1 = Cave Rock
 - 2 = Rubicon
@@ -313,6 +322,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/met?id=1&
 ```
 
 ### NASA
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb?id=4&rptdate=20260501&rptend=20260504
+
 ID Numbers:
 - 1 = tb1
 - 2 = tb2
@@ -364,6 +375,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb?i
 ```
 
 ### Met Weatherlink
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweatherlink?id=8&rptdate=20260501&rptend=20260504 
+
 ID Numbers:
 - 1 = Buckingham Point
 - 2 = Clearlake Oaks 
@@ -436,6 +449,8 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweathe
 ```
 
 ### Clear Lake Creeks
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/cl-creeks?id=1&rptdate=20260501&rptend=20260504 
+
 ID Numbers:
 - 1 = Kelsey
 - 2 = Middle
@@ -462,6 +477,7 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/cl-creeks
 ```
 
 ### TC Homewood
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/tc-homewood?rptdate=20260501&rptend=20260504
 
 ```bash
 curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/tc-homewood?rptdate=20260501&rptend=20260504'
@@ -503,6 +519,18 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/tc-homewo
 These endpoints display entries that were recorded in the last 30 days. 
 
 ### QuickSight Near Shore
+URLs:
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-camprichardson
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-dollarpoint
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-glenbrook
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-homewood
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-rubicon
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-sandharbor
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-tahoecity
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-tahoevista
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-timbercove
+
+
 
 ```bash
 curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-camprichardson'
@@ -560,6 +588,11 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-ns-tim
 ```
 
 ### QuickSight NASA
+URLs:
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb1
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb2
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb3
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb4
 
 ```bash
 curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb1'
@@ -609,6 +642,15 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/nasa-tb4'
 ```
 
 ### QuickSight Met Stations
+URLs:
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-caverock
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-rubicon
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-sunnyside
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-tahoevista
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-tdr1buoy
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-tdr2buoy
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-timbercove
+- https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-uscg
 
 ```bash
 curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/qs-met-caverock'
