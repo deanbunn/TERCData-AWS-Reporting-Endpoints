@@ -15,6 +15,7 @@ For the State of the Lake API, "id" is the year of the report and "rptend" (opti
 - [Met](#met)
 - [NASA](#nasa)
 - [Met Weatherlink](#met-weatherlink)
+- [Met Weatherlink EWS](#met-weatherlink-ews)
 - [Clear Lake Creeks](#clear-lake-creeks)
 - [TC Homewood](#tc-homewood)
 - [QuickSight Near Shore](#quicksight-near-shore)
@@ -447,6 +448,57 @@ curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweathe
     "Solar_Energy": "1.57"
   }
 ]
+```
+
+### Met Weatherlink EWS
+URL: https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweatherlink-ews?id=8&rptdate=20260501&rptend=20260504 
+
+ID Numbers:
+- 1 = Buckingham Point
+- 2 = Clearlake Oaks 
+- 4 = Konocti Bay
+- 5 = Nice
+- 6 = North Lakeport
+- 7 = Big Valley Rancheria
+- 8 = Beakbane Island
+
+```bash
+curl 'https://tepfsail50.execute-api.us-west-2.amazonaws.com/v1/report/metweatherlink-ews?id=8&rptdate=20260501&rptend=20260504'
+``` 
+```json
+[
+  {
+    "Station_ID": "Beakbane Island",
+    "DateTime_UTC": "2026-05-04 23:15:00",
+    "Air_Temp": "13.9",
+    "Rel_Humidity": "79.0",
+    "Wind_Speed": "7.0",
+    "Wind_Dir": "W",
+    "Solar_Rad": "73.0",
+    "Atm_Pres": "29.959"
+  },
+  {
+    "Station_ID": "Beakbane Island",
+    "DateTime_UTC": "2026-05-04 23:30:00",
+    "Air_Temp": "14.1",
+    "Rel_Humidity": "78.0",
+    "Wind_Speed": "8.0",
+    "Wind_Dir": "W",
+    "Solar_Rad": "76.0",
+    "Atm_Pres": "29.964"
+  },
+  {
+    "Station_ID": "Beakbane Island",
+    "DateTime_UTC": "2026-05-04 23:45:00",
+    "Air_Temp": "14.0",
+    "Rel_Humidity": "79.0",
+    "Wind_Speed": "5.0",
+    "Wind_Dir": "W",
+    "Solar_Rad": "83.0",
+    "Atm_Pres": "29.957"
+  }
+]
+
 ```
 
 ### Clear Lake Creeks
